@@ -5,7 +5,7 @@
     <title>WebStudio</title>
     <meta charset="utf-8" />
     <meta name="description" content="WebStudio" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
 </head>
 
 <body class="body">
-    <header>
+    <header class="header">
         <div class="container">
             <nav class="nav">
                 <div class="logo">
@@ -84,26 +84,24 @@
                 <h2 id="our-team" class="our-team-name">Our Team</h2>
                 <ul class="our-team-items">
                     <li class="our-team-list">
-                        <div class="our-team-worker">
                         <img src="./images/1.jpg" alt="mark guerrero" height="260" width="264" />
+                        <div class="our-team-worker">
                         <h3 class="our-team-title">Mark Guerrero</h3>
                         <p class="our-team-p">Product Designer</p>
                     </div>
                     </li>
                     <li class="our-team-list">
-                        <div class="our-team-worker">
                         <img src="./images/2.jpg" alt="tom ford" height="260" width="264" />
+                        <div class="our-team-worker">
                         <h3 class="our-team-title">Tom Ford</h3>
                         <p class="our-team-p">Frontend Developer</p>
                         </div>
                         </li>
-                     </li>
-                    <li class="our-team-list">
-                        <div class="our-team-worker">
+                     <li class="our-team-list">
                         <img src="./images/3.jpg" alt="camila garcia" height="260" width="264" />
+                        <div class="our-team-worker">
                         <h3 class="our-team-title">Camila Garcia</h3>
                         <p class="our-team-p">Marketing</p>
-                        </li>
                     </div>
                     </li>
                     <li class="our-team-list">
@@ -170,7 +168,9 @@
 
     <footer class="footer">
         <div class="container">
-            <a href="./index.html" class="footer-logo">Web<span class="footer-logo-span">Studio</span></a>
+            <div class="logotype">
+            <a href="./index.html" class="footer-logotype">Web<span class="footer-logo-span">Studio</span></a>
+            </div>
             <p class="footer-p">
                 Increase the flow of customers and<br />sales for your business with digital<br />marketing & growth
                 solutions.
