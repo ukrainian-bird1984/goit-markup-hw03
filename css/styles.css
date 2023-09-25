@@ -37,8 +37,6 @@ img {
     text-transform: uppercase;
     line-height: 1.17;
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .nav-logo:active {
@@ -87,6 +85,7 @@ img {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -100,10 +99,14 @@ img {
 .address {
     font-style: normal;
     justify-content: right;
-    display: flex;
     gap: 40px;
 }
 
+.address-items {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
 .address-link {
     letter-spacing: 0.02em;
     line-height: 1.5;
@@ -170,6 +173,9 @@ img {
     line-height: 1.5;
 }
 
+.visually-hidden {
+    visibility: hidden;
+}
 .about {
     list-style-type: none;
     display: flex;
@@ -269,6 +275,7 @@ img {
 }
 .our-portfolio-item {
     flex-basis: 360px;
+    width: calc((100% - 48px) / 3);
 }
 .our-portfolio-name {
     border: 1px solid #e7e9fc;
@@ -288,7 +295,9 @@ img {
     padding: 100px 0;
 }
 
-.logotype { display: inline-block;
+.logotype {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logotype {
