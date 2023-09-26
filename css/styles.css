@@ -281,6 +281,7 @@ img {
     column-gap: 24px;
     row-gap: 48px;
 }
+
 .our-portfolio-item {
     flex-basis: 360px;
     width: calc((100% - 48px) / 3);
